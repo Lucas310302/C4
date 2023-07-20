@@ -56,11 +56,6 @@ The C4-CC system is intended for **educational and ethical purposes** only. Unau
 ---
 
 # C4 Command And Control Tool [CLIENT]
-## Written by: Lucas Rønnebro
-
-**For educational purposes and research purposes only.**
-**For semi-documentation please refer to the readme.**
-**Enjoy the tool!!**
 
 ---
 
