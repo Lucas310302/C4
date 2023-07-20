@@ -1,0 +1,44 @@
+--- C4 SHELL TITLE ---
+  ___ _ _    ___ _  _ ___ _    _
+ / __| | |  / __| || | __| |  | |   
+| (__|_  _| \__ \ __ | _|| |__| |__ 
+ \___| |_|  |___/_||_|___|____|____|
+ -----------------------------------
+--- end ---
+--- C4 TERMINAL TITLE ---
+  ___ _ _    _____ ___ ___ __  __ ___ _  _   _   _    
+ / __| | |  |_   _| __| _ \  \/  |_ _| \| | /_\ | |   
+| (__|_  _|   | | | _||   / |\/| || || .` |/ _ \| |__ 
+ \___| |_|    |_| |___|_|_\_|  |_|___|_|\_/_/ \_\____|
+ -----------------------------------------------------
+--- end ---
+--- C4 ZOMBIES TITLE ---
+   ___ _ _    _______  __  __ ___ ___ ___ ___   _ 
+  / __| | |  |_  / _ \|  \/  | _ )_ _| __/ __| (_)
+ | (__|_  _|  / / (_) | |\/| | _ \| || _|\__ \  _ 
+  \___| |_|  /___\___/|_|  |_|___/___|___|___/ (_)
+ -------------------------------------------------
+--- end ---
+--- TERMINAL HELP DESC ---
+
+C4 SHELL COMMANDS
+
+send
+  Description: Sends a file to all connected zombies
+  Usage: send -f [filepath] -n [filename] -e [extension]
+  Example: send -f ./path/to/file -n random_file_name -e .txt
+
+SYNTACK
+  Description: Start a SYN packet flood from all zombies routing to one target ip
+  Usage: SYNTACK -a [ip_addr] -p [port]
+  Example SYNTACK -a 127.0.0.1 -p 12345
+
+bot_size
+  Description: Checks how many zombies are currently under your control
+  Usage: targets
+
+exit
+  Description: Goes back to the menu
+  Usage: exit
+
+--- end ---
